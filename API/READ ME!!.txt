@@ -1,0 +1,34 @@
+READ ME!!
+
+Esta API ha sido creada usando FastAPI en Python por Carles Salvany.
+
+Equipo Flix&Chill:
+
+- Samantha Abigail
+- Maria Andreo
+- Martin Juni
+- Mateo Amaya
+- Carles Salvany 
+
+Para iniciar la API usa el siguiente comando: 
+
+PS C:\Users\carlessalfor\Documents\API> uvicorn main:app --host [ip del equipo] --workers 5 --port 8000 
+
+Anotaciones:
+
+A veces cuando transportaba la API de casa al centro me daba un error sobre el path de algunos archivos descargados de sqlalchemy y FastAPI.
+La solución mas rápida que encontré es crear un nuevo entorno y copiar y pegar la estructura y los archivos en un nuevo entorno para seguido descargar los siguientes paquetes:
+
+pip install fastapi
+pip install sqlalchemy
+
+
+End points:
+
+/users
+/users/{id}
+/movies
+/movies/{id}
+/series
+/series/{id}
+/history/{id}
